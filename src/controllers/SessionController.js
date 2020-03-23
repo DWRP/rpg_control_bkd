@@ -24,7 +24,7 @@ module.exports = {
                 password});
         }else{
             if (password != user['password']){
-                return res.json({erro:"login invalido"});
+                return res.json({erro:"Senha errada!!"});
             }
         }
         return res.json(user);

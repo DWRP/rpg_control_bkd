@@ -1,6 +1,6 @@
 const express = require('express');
 
-const SessionControler = require('./src/controllers/SessionController');
+const SessionControler = require('./controllers/SessionController');
 
 const routes = express.Router();
 
