@@ -23,7 +23,7 @@ module.exports = {
                 email,
                 password});
         }else{
-            if (password != user['password']){
+            if (password != user.password){
                 return res.json({erro:"Senha errada!!"});
             }
         }
