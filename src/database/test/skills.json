@@ -1,0 +1,69 @@
+[
+    {
+        "aesir":[
+            {
+                "id":1,
+                "name":"Berserkir",
+                "feature":"Suporte",
+                "required":["Fúria Bestial",{"Vontade":4}],
+                "mp":null,
+                "description":"Você é um escolhido do Urso como seu protegido, e é amparado pela resistência dele quando evoca a Fúria Bestial. Enquanto estiver em Fúria Bestial, você fica Resistente à Corte, Resistente à Perfuração e Resistente à Contusão. Você não pode estar usando armaduras ou escudos para que essa Habilidade tenha efeito, já que o Urso espera que você considere a proteção dele acima de qualquer proteção mundana",
+                "special":"Se você tiver um Espírito Animal que não seja o Urso, você não pode possuir esta Habilidade. Se você possuir esta Habilidade, você só pode escolher o Urso como seu Espírito Animal. "
+            },
+            {
+                "id":2,
+                "name":"Bravura Selvagem 1",
+                "feature":"Suporte",
+                "required":null,
+                "mp":null,
+                "description":"Você confia mais nas suas habilidades naturais do que em armaduras para se defender. Quando não estiver usando armadura, você recebe +2 em sua Defesa. \n Quando escolhe essa Habilidade, você deve escolher se este será um bônus de Bloqueio ou Esquiva. Essa escolha é permanente e não pode ser mudada mais tarde. ",
+                "special":null
+            },
+            {
+                "id":3,
+                "name":"Bravura Selvagem 2",
+                "feature":"Suporte",
+                "required":["Bravura Selvagem 1",{"level":5}],
+                "mp":null,
+                "description":"Você veste sua bravura em batalha melhor do que alguns vestem armaduras. O Bônus Defesa conferido por Bravura Selvagem 1 aumenta para +4 e você pode escolher se esse bônus será de Bloqueio ou Esquiva no início de cada um de seus turnos, como uma ação livre",
+                "special":""
+            },
+            {
+                "id":4,
+                "name":"Fúria Bestial",
+                "feature":"Ação",
+                "required":null,
+                "mp":30,
+                "description":" Você foi tocado pelo espírito do Urso ou pelo espírito do Lobo, e pode invocar a fúria que provém do instinto de sobrevivência deles. Enquanto estiver neste estado você recebe Força +2 e fica imune a Efeitos de Medo. Este efeito dura até o final da batalha ou até que você fique dois turnos sem atacar. Você não pode estar em Fúria Bestial e Fúria de Batalha ao mesmo tempo.",
+                "special":"Se você tiver um Espírito Animal que não seja o Urso ou o Lobo, você não pode possuir esta Habilidade. Se você possuir esta Habilidade, você só pode escolher o Lobo ou o Urso como seu Espírito Animal. "
+            },
+            {
+                "id":5,
+                "name":"Berserkir",
+                "feature":"Suporte",
+                "required":null,
+                "mp":null,
+                "description":"",
+                "special":""
+            },
+            {
+                "id":6,
+                "name":"Berserkir",
+                "feature":"Suporte",
+                "required":null,
+                "mp":null,
+                "description":"",
+                "special":""
+            },
+            {
+                "id":7,
+                "name":"Berserkir",
+                "feature":"Suporte",
+                "required":null,
+                "mp":null,
+                "description":"",
+                "special":""
+            }
+        ]
+    }
+]

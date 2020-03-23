@@ -1,0 +1,23 @@
+{
+    "aesir":{
+        "attrs":{
+            "force":4,
+            "Agilidade":2,
+            "Inteligência":3,
+            "Vontade":3
+        },
+        "class":[
+            "bardo",
+            "druida",
+            "guerreiro",
+            "patrulheiro",
+            "rúnico"
+        ],
+        "auto_skill":{
+            "name":"Vigor Nórdico",
+            "feature":"Suporte",
+            "required":null,
+            "description":"Você nasceu em uma região gelada, e os rigores climáticos de Eishelm tornaram você vigoroso e resiliente. Você é Resistente à Frio e não é afetado nem por efeitos de climas gelados nem por efeitos provenientes de danos por Frio (como Enregelamento)."
+        }
+    }
+}

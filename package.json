@@ -1,0 +1,23 @@
+{
+  "name": "charview",
+  "version": "1.0.0",
+  "description": "A view char to table RPG",
+  "main": "index.js",
+  "author": "Douglas w.",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.5",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
